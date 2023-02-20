@@ -1,0 +1,82 @@
+[
+    {
+        "name": "ASSASSIN'S CREED ODYSSEY",
+        "price": 13.58,    
+        "description": "Assassin's Creed Odyssey is a 2018 action role-playing video game developed by Ubisoft Quebec and published by Ubisoft. It is the eleventh major installment in the Assassin's Creed series and the successor to 2017's Assassin's Creed Origins.",
+        "ratings": 4.5,
+        "images": [
+            {
+                "image": "assassin-s-creed-odyssey.jpg"
+            }
+        ],
+        "category": "Fighting" ,
+        "seller": "EpicGames",
+        "stock": 15,
+        "numOfReviews": 2,
+        "reviews": []
+    },
+    {
+        "name": "TRAIN SIM 2019",
+        "price": 39.00,    
+        "description": "Train Sim 2019 is a train simulation game series developed by Dovetail Games. It was released 2018.",
+        "ratings": 3.0,
+        "images": [
+            {
+                "image": "ts-2019.jpg"
+            }
+        ],
+        "category": "Simulation" ,
+        "seller": "EpicGames",
+        "stock": 18,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "GTA V",
+        "price": 15.08,    
+        "description": "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall",
+        "ratings": 4.5,
+        "images": [
+            {
+                "image": "gta-5.jpg"
+            }
+        ],
+        "category": "Role-Play" ,
+        "seller": "Steam",
+        "stock": 2,
+        "numOfReviews": 12,
+        "reviews": []
+    },
+    {
+        "name": "CALL OF Duty WW 2",
+        "price": 22.99,    
+        "description": "Call of Duty: WWII is a 2017 first-person shooter game developed by Sledgehammer Games and published by Activision.",
+        "ratings": 4.0,
+        "images": [
+            {
+                "image": "call-of-duty-ww-2.jpg"
+            }
+        ],
+        "category": "Shooting" ,
+        "seller": "EpicGames",
+        "stock": 14,
+        "numOfReviews": 1,
+        "reviews": []
+    },
+    {
+        "name": "NEED FOR SPEED MW 2012",
+        "price": 22.99,    
+        "description": "Need for Speed: Most Wanted is a 2005 open-world racing video game, and the ninth installment in the Need for Speed series.",
+        "ratings": 4.0,
+        "images": [
+            {
+                "image": "nfs-mw-2012.jpg"
+            }
+        ],
+        "category": "Racing" ,
+        "seller": "Steam",
+        "stock": 8,
+        "numOfReviews": 4,
+        "reviews": []
+    }
+]

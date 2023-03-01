@@ -1,76 +1,70 @@
 const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken')
-const crypto = require('crypto')
+const jwt = require('jsonwebtoken');
+const crypto = require('crypto');
 
 const userSchema = new mongoose.Schema({
-    name: {
+    name : {
         type: String,
-        required: [true, 'Please enter a name']
+        required: [true, 'Please enter name']
     },
-    email: {
+    email:{
         type: String,
-        required: [true, 'Please enter a email'],
+        required: [true, 'Please enter email'],
         unique: true,
-        validate: [validator.isEmail, 'Please enter a valid email address']
+        validate: [validator.isEmail, 'Please enter valid email address']
     },
     password: {
         type: String,
-        required: [true, 'Please enter a password'],
-        maxlength: [8, 'Password cannot be exceed 8 characters'],
+        required: [true, 'Please enter password'],
+        maxlength: [8, 'password cannot exceed 8 Characters'],
         select: false
     },
     avatar: {
         type: String,
-        required: true
     },
-    role: {
+    role:{
         type: String,
         default: 'user'
     },
-    resetPasswordToken: {
-        type: String
-    },
-    resetPasswordTokenExpire: {
-        type: Date
-    },
+    resetPasswordToken: String,
+    resetPasswordTokenExpire: Date,
     createdAt: {
         type: Date,
-        default: Date.now()
+        default: Date.now
     }
 })
 
-userSchema.pre('save', async function (next) {
+userSchema.pre('save', async function(next){
     if(!this.isModified('password')){
-        next()
+        next();
     }
     this.password = await bcrypt.hash(this.password, 10)
 })
 
-userSchema.methods.getJWToken = function () {
+userSchema.methods.getJwtToken = function(){
     return jwt.sign({id: this.id}, process.env.JWT_SECRET, {
         expiresIn: process.env.JWT_EXPIRES_TIME
-    } )
+    })
 }
 
-userSchema.methods.isValidPassword = async function (enteredPassword) {
-    return bcrypt.compare(enteredPassword, this.password)
+userSchema.methods.isValidPassword = async function(enteredPassword){
+    return await bcrypt.compare(enteredPassword, this.password)
 }
 
-userSchema.methods.getResetToken = function () {
-    // Generate token
+userSchema.methods.getResetToken = function(){
+// generate token
     const token = crypto.randomBytes(20).toString('hex');
 
-    // Generate Hash and set to resetPasswordToken
     this.resetPasswordToken = crypto.createHash('sha256').update(token).digest('hex');
-    
-    //Set token expire time
-    this.resetPasswordTokenExpire = Date.now() + 30 * 60 * 1000;
 
-    return token
+    //set token expire time
+    this.resetPasswordTokenExpire = Date.now() + 30 * 60 * 1000;
+    
+    return token;
 }
 
-let model = mongoose.model('user', userSchema);
+let model = mongoose.model('User', userSchema);
 
 module.exports = model;

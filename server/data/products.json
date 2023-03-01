@@ -1,82 +1,222 @@
 [
     {
-        "name": "ASSASSIN'S CREED ODYSSEY",
-        "price": 13.58,    
-        "description": "Assassin's Creed Odyssey is a 2018 action role-playing video game developed by Ubisoft Quebec and published by Ubisoft. It is the eleventh major installment in the Assassin's Creed series and the successor to 2017's Assassin's Creed Origins.",
-        "ratings": 4.5,
+        "name": "AGE OF EMPIRES IV",
+        "price": 8.90,
+        "description": "Age of Empires IV is a real-time strategy video game developed by Relic Entertainment in partnership with World's Edge and published by Xbox Game Studios.",
+        "ratings": 0,
         "images": [
             {
-                "image": "assassin-s-creed-odyssey.jpg"
-            }
-        ],
-        "category": "Fighting" ,
-        "seller": "EpicGames",
-        "stock": 15,
-        "numOfReviews": 2,
-        "reviews": []
-    },
-    {
-        "name": "TRAIN SIM 2019",
-        "price": 39.00,    
-        "description": "Train Sim 2019 is a train simulation game series developed by Dovetail Games. It was released 2018.",
-        "ratings": 3.0,
-        "images": [
+                "image": "/img/products/aoe-4.jpg"
+            },
             {
-                "image": "ts-2019.jpg"
+                "image": "/img/products/aoe-4-2.jpg"
+            },
+            {
+                "image": "/img/products/aoe-4-3.jpg"
             }
         ],
-        "category": "Simulation" ,
-        "seller": "EpicGames",
-        "stock": 18,
+        "category": "War",
+        "seller": "Xbox",
+        "stock": 5,
         "numOfReviews": 0,
         "reviews": []
     },
     {
-        "name": "GTA V",
-        "price": 15.08,    
-        "description": "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall",
-        "ratings": 4.5,
+        "name": "GRAND THEFT AUTO IV",
+        "price": 7.58,
+        "description": "Grand Theft Auto IV is a 2008 game developed by Rockstar North and published by Rockstar Games. The game is played from a third-person perspective and its world is navigated on foot or by vehicle.",
+        "ratings": 0,
         "images": [
             {
-                "image": "gta-5.jpg"
+                "image": "/img/products/gta-4.jpg"
+            },
+            {
+                "image": "/img/products/gta-4-2.jpg"
+            },
+            {
+                "image": "/img/products/gta-4-3.jpg"
             }
         ],
-        "category": "Role-Play" ,
-        "seller": "Steam",
-        "stock": 2,
-        "numOfReviews": 12,
+        "category": "Role-Play",
+        "seller": "Rockstar Games",
+        "stock": 9,
+        "numOfReviews": 0,
         "reviews": []
     },
     {
-        "name": "CALL OF Duty WW 2",
-        "price": 22.99,    
-        "description": "Call of Duty: WWII is a 2017 first-person shooter game developed by Sledgehammer Games and published by Activision.",
-        "ratings": 4.0,
+        "name": "GRAND THEFT AUTO V",
+        "price": 12.90,
+        "description": "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It may be fully explored after the game's beginning without restriction, although story progress unlocks more gameplay content.",
+        "ratings": 0,
         "images": [
             {
-                "image": "call-of-duty-ww-2.jpg"
+                "image": "/img/products/gta-5.jpg"
+            },
+            {
+                "image": "/img/products/gta-5-2.jpg"
+            },
+            {
+                "image": "/img/products/gta-5-3.jpg"
             }
         ],
-        "category": "Shooting" ,
-        "seller": "EpicGames",
-        "stock": 14,
-        "numOfReviews": 1,
+        "category": "Role-Play",
+        "seller": "Rockstar Games",
+        "stock": 9,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "NEED FOR SPEED HEAT",
+        "price": 20.58,
+        "description": "Need for Speed Heat (stylised as NFS Heat) is a 2019 racing video game developed by Ghost Games and published by Electronic Arts. eed for Speed Heat is a racing game set in an open world environment called Palm City, a fictionalised version of Miami, Florida, and its surrounding areas.",
+        "ratings": 0,
+        "images": [
+          {
+            "image": "/img/products/nfs-heat.jpg"
+          },
+          {
+            "image": "/img/products/nfs-heat-2.jpg"
+          },
+          {
+            "image": "/img/products/nfs-heat-3.jpg"
+          }
+        ],
+        "category": "Racing",
+        "seller": "EA Sports",
+        "stock": 9,
+        "numOfReviews": 0,
+        "reviews": []
+      },
+      {
+        "name": "WATCH DOGS 2",
+        "price": 15.95,
+        "description": "Watch Dogs 2 (stylized as WATCH_DOGS 2) is a 2016 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. Similar to its predecessor, Watch Dogs 2 is an stealth elements and played from a third-person perspective as Marcus Holloway, a young hacker. ",
+        "ratings": 0,
+        "images": [
+          {
+            "image": "/img/products/wd-2.jpg"
+          },
+          {
+            "image": "/img/products/wd-2-2.jpg"
+          },
+          {
+            "image": "/img/products/wd-2-3.jpg"
+          }
+        ],
+        "category": "Role-Play",
+        "seller": "Ubisoft",
+        "stock": 9,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "CALL OF DUTY WW 2",
+        "price": 30.46,
+        "description": "Call of Duty: WWII is a 2017 first-person shooter game developed by Sledgehammer Games and published by Activision. Call of Duty: WWII is a first-person shooter game. Not similar to its recent predecessors, it removes the advanced system of movement present in the two previous Call of Duty titles, which included double jumping and wall running.",
+        "ratings": 0,
+        "images": [
+            {
+                "image": "/img/products/cod-ww2.jpg"
+            },
+            {
+                "image": "/img/products/cod-ww2-2.jpg"
+            },
+            {
+                "image": "/img/products/cod-ww2-3.jpg"
+            }
+        ],
+        "category": "Shooting",
+        "seller": "Activision",
+        "stock": 4,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "EURO TRUCK SIMULATOR 2",
+        "price": 10.12,
+        "description": "Euro Truck Simulator 2 is a truck simulator game developed and published by SCS Software. Euro Truck Simulator 2 is a truck driving simulator with business management elements. Players drive articulated trucks in an open world rendition of Europe, delivering loads to a designated locations in order to be compensated with money and experience points.",
+        "ratings": 0,
+        "images": [
+            {
+                "image": "/img/products/ets-2.jpg"
+            },
+            {
+                "image": "/img/products/ets-2-2.jpg"
+            },
+            {
+                "image": "/img/products/ets-2-3.jpg"
+            }
+        ],
+        "category": "Simulation",
+        "seller": "SCS Software",
+        "stock": 6,
+        "numOfReviews": 0,
         "reviews": []
     },
     {
         "name": "NEED FOR SPEED MW 2012",
-        "price": 22.99,    
-        "description": "Need for Speed: Most Wanted is a 2005 open-world racing video game, and the ninth installment in the Need for Speed series.",
-        "ratings": 4.0,
+        "price": 5.58,
+        "description": "Need for Speed: Most Wanted[a] is an open world racing game developed by Criterion Games and published by Electronic Arts. Need for Speed: Most Wanted is set in an open world environment.",
+        "ratings": 0,
+        "images": [
+          {
+            "image": "/img/products/nfs-mw-2012.jpg"
+          },
+          {
+            "image": "/img/products/nfs-mw-2012-2.jpg"
+          },
+          {
+            "image": "/img/products/nfs-mw-2012-3.jpg"
+          }          
+        ],
+        "category": "Racing",
+        "seller": "EA Sports",
+        "stock": 9,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "PLANET ZOO",
+        "price": 15.46,
+        "description": "Planet Zoo is a 2019 construction and management simulation video game by Frontier Developments. Planet Zoo is a 2019 construction and management simulation video game by Frontier Developments.",
+        "ratings": 0,
         "images": [
             {
-                "image": "nfs-mw-2012.jpg"
+                "image": "/img/products/pz.jpg"
+            },
+            {
+                "image": "/img/products/pz-2.jpg"
+            },
+            {
+                "image": "/img/products/pz-3.jpg"
             }
         ],
-        "category": "Racing" ,
-        "seller": "Steam",
-        "stock": 8,
-        "numOfReviews": 4,
+        "category": "Editors-Choice",
+        "seller": "Frontier Developments",
+        "stock": 4,
+        "numOfReviews": 0,
+        "reviews": []
+    },
+    {
+        "name": "TRAIN SIM WORLD 3",
+        "price": 10.12,
+        "description": "Train Sim World 3 (abbreviated to TSW 3) is a train simulation game series developed by Dovetail Games. New weather features such as Dynamic Weather and volumetric clouds are also to be added in, passengers will also now change clothes based on the weather and season including the use of umbrellas.",
+        "ratings": 0,
+        "images": [
+            {
+                "image": "/img/products/tsw-3.jpg"
+            },
+            {
+                "image": "/img/products/tsw-3-2.jpg"
+            },
+            {
+                "image": "/img/products/tsw-3-3.jpg"
+            }
+        ],
+        "category": "Simulation",
+        "seller": "Dovetail Games",
+        "stock": 6,
+        "numOfReviews": 0,
         "reviews": []
     }
 ]

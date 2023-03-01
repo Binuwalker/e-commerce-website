@@ -1,0 +1,272 @@
+.home {
+  position: relative;
+  top: 55px;
+}
+
+/* products */
+
+.products {
+  height: 500px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.product-info {
+  height: 420px;
+  width: 24.05%;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: rgb(195, 200, 199);
+  border-radius: 4px;
+  float: left;
+}
+
+.product-main-img-container {
+  height: 180px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 2px solid rgb(146, 157, 153);
+}
+
+.product-main-img {
+  height: 180px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-name {
+  color: #59605e;
+  font-size: 20px;
+  font-weight: 680;
+  cursor: pointer;
+}
+
+.product-name:hover {
+  color: #383a3a;  
+}
+
+.product-pricing {
+  font-size: 25px;
+}
+
+.product-btn-addToCart {
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  border: 2px solid rgb(75, 183, 142);
+  border-radius: 10px;
+}
+
+.product-btn-veiwDetails {
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(75, 183, 142);
+  border: 2px solid rgb(53, 92, 77);
+  border-radius: 10px;
+}
+
+/* Ratings */
+
+.rating-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+  color: rgb(75, 183, 142);
+}
+
+.rating-outer::before {
+  content: '\f006 \f006 \f006 \f006 \f006';
+}
+
+.rating-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.rating-inner::before {
+  content: '\f005 \f005 \f005 \f005 \f005';
+  color: rgb(75, 183, 142);
+}
+
+/* Loader */
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 80px;
+  height: 80px;
+  padding-left: 0;
+}
+
+.loader:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid rgb(75, 183, 142);
+  border-color: rgb(75, 183, 142) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* productDetail */
+
+.productDetail {
+  position: relative;
+  top: 100px;
+}
+
+.productDetail-img-container {
+  height: 600px;
+  width: 20%;
+  background-color: rgb(235, 238, 236);
+  float: left;
+}
+
+.productDetail-img {
+  height: 400px;
+  width: 100%;
+  margin-top: 100px;
+  background-color: red;
+  float: left;
+}
+
+.productDetail-info-container {
+  height: 600px;
+  width: 50%;
+  background-color: rgb(235, 238, 236);
+  float: left;
+}
+
+.productDetail-name {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.productDetail-price {
+  font-size: 20px;
+}
+
+.productDetail-ratings {
+  font-size: 20px;
+}
+
+.productDetail-stock {
+  font-size: 20px;
+}
+
+.products-filter{
+  width:24.05%;
+  margin-top: 10px;
+  float: left;
+}
+
+.filter {
+  z-index: 2;
+  position: relative;
+  top: 20px;
+}
+
+/* Product Detail */
+
+.product-detail-container {
+  height: 520px;
+  width: 100%;
+  background-color: rgb(230, 241, 237);
+  position: relative;
+  top: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 1px rgb(151, 149, 149);
+}
+
+.product-detail-img-container {
+  width: 50%;
+  margin-top: 10px;
+  float: left;
+  border-radius: 10px;
+}
+
+.product-detail-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-detail-info-container {
+  margin-top: 10px;
+  width: 50%;
+  float: left;
+}
+
+.product-name-container {
+  height: 60px;
+  width: 73%;
+  float: left;
+}
+
+.product-ratings-container {
+  height: 60px;
+  width: 27%;
+  float: left;
+}
+
+.product-detail-id {
+  color: #5c5a5a;
+  font-size: 14px;
+}
+
+#product_price {
+  height: 100px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.product-detail-description {
+  height: 80px;
+}
+
+.product-detail-addToCart-btn {
+  height: 40px;
+  width: 150px;
+  background-color: #5ce2b8;
+  border: 1px solid #205746;
+  border-radius: 10px;
+}
+
+.product-detail-submitReview-btn { 
+  height: 40px;
+  width: 200px;
+  color: rgb(240, 255, 252);
+  background-color: #205746;
+  border: 1px solid #12221d;
+  border-radius: 10px;  
+}
+
+/* Reviews */
+
+.product-detail-reviews {
+  margin-top: 100px;
+}
+
+.product-reviews {
+  width: 100%;
+}

@@ -1,0 +1,106 @@
+/* Navbar */
+
+.nav-top {
+    box-shadow: 2px 2px 10px 1px rgb(33, 33, 33);
+}
+
+.nav-cart {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.nav-cartCount {
+    height: 20px;
+    position: relative;
+    right: 20px;
+    top: 12px;
+    color: rgb(47, 114, 89);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 680;
+}
+
+/* Nav Search */
+
+.nav-search-container {
+    position: relative;
+    top: 6px;
+}
+
+.nav-search{
+    width: 600px;
+}
+
+.nav-search-input-container {
+    height: 38px;
+    width: 250px;
+    float: left;
+}
+
+.nav-search-input {
+    height: 38px;
+    width: 240px;
+    background-color: rgb(186, 221, 212);
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.nav-search-btn-container {
+    height: 38px;
+    width: 40px;
+    float: left;
+}
+
+.nav-search-btn {
+    height: 38px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+/* Nav Dropdown */
+
+.nav-dropdown-container {
+    width: 90px;
+}
+
+.nav-dropdown-img-container {
+    width: 10px;
+    float: left;
+}
+
+.nav-dropdown-links-container {
+    height: 38px;
+}
+
+.nav-dropdown-links {
+    
+    height: 48px;
+}
+#sidebar ul li.active > a, a[aria-expanded='true'] {
+    background-color: transparent ;
+}
+
+.nav-dropdown {
+    outline: none;
+}
+
+/* Nav Avatar */
+
+.nav-avatar-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+ 
+
+/* Footer */
+
+.text-bold {
+    font-size: 20px;
+    font-weight: 680;
+}
+
